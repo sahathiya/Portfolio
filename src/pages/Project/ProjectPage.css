@@ -1,3 +1,29 @@
+.icon-home {
+    color: var(--secondary-color);
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 7px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px #ffffff40, -3px -3px 6px #00000050;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .icon-home:hover {
+    color: var(--tertiary-color);
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 600px) {
+    .icon-home {
+      font-size: 1.8rem;
+    }
+  }
+  
+
 .projectPage {
     display: flex;
     flex-direction: column;

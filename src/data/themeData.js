@@ -9,4 +9,3 @@ export const themeData = {
 }
 
 
-// Choose theme from above

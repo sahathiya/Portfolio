@@ -1,3 +1,26 @@
+
+:root {
+    --theme-primary: #000000;
+    --theme-primary30: #0000004d;
+    --theme-primary50: #00000080;
+    --theme-tertiary: #212121;
+    --theme-tertiary80:#212121cc;
+    /* --primaryFont: 'Poppins', sans-serif; */
+  }
+  
+  .experience-card {
+    transition: background-color 0.3s ease-in-out;
+    background-color: var(--theme-primary30);
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .experience-card:hover {
+    background-color: var(--theme-primary50);
+  }
+  
 .experience{
     min-height: 100vh;
 }

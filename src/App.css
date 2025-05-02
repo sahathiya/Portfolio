@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 } */
+
+/* :root {
+  --theme-primary: #3498db;
+  --theme-secondary: #ffffff;
+  --theme-tertiary: #2c3e50;
+  --theme-primary80: #85c1e9;
+  --theme-primary600: #21618c;
+  --primaryFont: 'Poppins', sans-serif;
+} */
+
+/* Place other class styles like .input, .label, etc., below here */
+:root {
+  --theme-primary: #000000;
+  --theme-primary30: #0000004d;
+  --theme-primary50: #00000080;
+  --theme-tertiary: #212121;
+  --theme-tertiary80:#212121cc;
+   --fontFamily: "var(--primaryFont)"
+  /* --primaryFont: 'Poppins', sans-serif; */
+}

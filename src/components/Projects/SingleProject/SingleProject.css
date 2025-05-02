@@ -1,3 +1,19 @@
+/* .project--iconBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.2s;
+  
+  }
+  
+  .project--icon {
+    font-size: 1.1rem;
+    transition: all 0.2s;
+  } */
+  
 .singleProject {
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
     width: 304px;

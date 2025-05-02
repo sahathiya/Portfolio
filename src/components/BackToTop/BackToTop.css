@@ -7,6 +7,11 @@
     z-index: 999;
 }
 
+.backToTopIcon {
+    font-size: 3rem;
+    color: var(--tertiary-color); /* We'll set this from the theme context dynamically */
+  }
+  
 .backToTop button {
     outline: none;
     border: none;

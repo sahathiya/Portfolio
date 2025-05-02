@@ -1,3 +1,133 @@
+/* :root {
+    --primaryFont: 'Poppins', sans-serif;
+    --theme-primary: #3498db;
+    --theme-secondary: #ffffff;
+    --theme-tertiary: #2c3e50;
+  } */
+  
+  /* Nav Menu Icon */
+  .nav-menu {
+    font-size: 2.5rem;
+    color: var(--theme-tertiary);
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: color 0.3s;
+  }
+  
+  .nav-menu:hover {
+    color: var(--theme-primary);
+  }
+  
+  @media (max-width: 600px) {
+    .nav-menu {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .nav-menu {
+      font-size: 2rem;
+    }
+  }
+  
+  /* Drawer Styles */
+  .drawer {
+    padding: 0 1.8em;
+    width: 14em;
+    font-family: var(--primaryFont);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    background: var(--theme-secondary);
+    overflow: hidden;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  
+  @media (max-width: 600px) {
+    .drawer {
+      width: 12em;
+    }
+  }
+  
+  /* Close Button Icon */
+  .close-btn-icon {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--theme-primary);
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    transition: color 0.2s;
+  }
+  
+  .close-btn-icon:hover {
+    color: var(--theme-tertiary);
+  }
+  
+  @media (max-width: 600px) {
+    .close-btn-icon {
+      right: 20px;
+      top: 20px;
+    }
+  }
+  
+  /* Drawer Item */
+  .drawer-item {
+    margin: 2rem auto;
+    border-radius: 79px;
+    background: var(--theme-secondary);
+    color: var(--theme-primary);
+    width: 85%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border: 2px solid var(--theme-primary);
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .drawer-item:hover {
+    background: var(--theme-primary);
+    color: var(--theme-secondary);
+  }
+  
+  @media (max-width: 600px) {
+    .drawer-item {
+      width: 100%;
+      padding: 0 25px;
+      height: 55px;
+    }
+  }
+  
+  /* Drawer Link Text */
+  .drawer-links {
+    font-family: var(--primaryFont);
+    width: 50%;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 600px) {
+    .drawer-links {
+      font-size: 1.125rem;
+    }
+  }
+  
+  /* Drawer Icon */
+  .drawer-icon {
+    font-size: 1.6rem;
+  }
+  
+  @media (max-width: 600px) {
+    .drawer-icon {
+      font-size: 1.385rem;
+    }
+  }
+
 .navbar {
     height: 6.5rem;
     position: absolute;

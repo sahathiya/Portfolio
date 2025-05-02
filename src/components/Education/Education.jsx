@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 import './Education.css'
-// import EducationCard from './EducationCard';
+
 import EducationCard from '../Education/EducationCard'
 import { educationData } from '../../data/educationData'
 

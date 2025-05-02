@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Fade from 'react-reveal/Fade';
+
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
@@ -27,7 +27,7 @@ console.log("theme in education",theme);
     
 
     return (
-        // <Fade >
+       
             <div key={id} className={`education-card ${classes.educationCard}`} >
                 <div className="educard-img" style={{backgroundColor: theme.primary}}>
                     <img src={theme.type === 'light' ?  eduImgWhite:eduImgBlack } alt="" />
@@ -38,7 +38,7 @@ console.log("theme in education",theme);
                     <h5 style={{color: theme.tertiary80}}>{institution}</h5>
                 </div>
             </div>
-        // {/* </Fade>         */}
+       
     )
 }
 
