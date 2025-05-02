@@ -1,6 +1,12 @@
 import React, { useContext, useState } from "react";
-import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
-import CloseIcon from "@material-ui/icons/Close";
+// import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
+import Snackbar from '@mui/material/Snackbar';
+import IconButton from '@mui/material/IconButton';
+import SnackbarContent from '@mui/material/SnackbarContent';
+
+// import CloseIcon from "@material-ui/icons/Close";
+import CloseIcon from '@mui/icons-material/Close';
+
 import { FaTwitter, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { AiOutlineSend, AiOutlineCheckCircle } from "react-icons/ai";
