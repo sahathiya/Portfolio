@@ -80,7 +80,7 @@ import vercel from '../assets/svg/skills/Vercel.svg'
 import redux from '../assets/svg/skills/Redux.svg'
 // import github from '../assets/svg/skills/GitHub.svg'
 // import GithubIcon from '/src/assets/svg/skills/GitHub.svg'; 
-import github from '../assets/svg/skills/GitHub.svg'
+import github from '/asset/skills/GitHub.svg'
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
