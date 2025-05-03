@@ -78,7 +78,9 @@ import vite from '../assets/svg/skills/vitejs.svg'
 import node from '../assets/svg/skills/Node.svg'
 import vercel from '../assets/svg/skills/Vercel.svg'
 import redux from '../assets/svg/skills/Redux.svg'
-import github from '../assets/svg/skills/GitHub.svg'
+// import github from '../assets/svg/skills/GitHub.svg'
+import GithubIcon from '../assets/svg/skills/GitHub.svg'; 
+
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
@@ -113,7 +115,7 @@ export const skillsImage = (skill) => {
         case 'next js':
             return nextJS;
         case 'github':
-            return github;
+            return GithubIcon;
         case 'react':
             return react;
         case 'vercel':
