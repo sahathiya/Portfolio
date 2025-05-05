@@ -36,25 +36,25 @@ export const projectsData = [
         code: 'https://github.com/sahathiya/findly_clientside',
         demo: '',
         image: findly
-    },
-    {
-        id: 4,
-        projectName: 'Quickchat',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase','socket.io'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
-    },
-    {
-        id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
-    },
+    }
+    // {
+    //     id: 4,
+    //     projectName: 'Quickchat',
+    //     projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
+    //     tags: ['Flutter', 'Firebase','socket.io'],
+    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+    //     image: four
+    // },
+    // {
+    //     id: 5,
+    //     projectName: 'E-Commerce App',
+    //     projectDesc: 'A Simple E-commerce application',
+    //     tags: ['React Native', 'Firebase'],
+    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+    //     image: five
+    // },
     // {
     //     id: 6,
     //     projectName: 'Uber Lite',
