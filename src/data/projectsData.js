@@ -26,7 +26,7 @@ export const projectsData = [
         projectDesc: 'Developed a high-performance Booking.com clone with seamless hotel search, filtering, and reservation features. Integrated responsive UI and secure user authentication for a complete travel booking experience.',
         tags: ['React', 'Tailwind CSS','Javascript','Redux','Node','MongoDB'],
         code: 'https://github.com/sahathiya/Booking',
-        demo: '',
+        demo: 'https://booking-sahathiyas-projects.vercel.app',
         image: booking
     },
     {
@@ -35,7 +35,7 @@ export const projectsData = [
         projectDesc: 'Findly is a modern job-hunting platform connecting talent with opportunity through a seamless, user-friendly experience.Connecting you to employers.',
         tags: ['Next.js', 'Tailwind Css', 'Typescript','Redux','Node','MongoDB'],
         code: 'https://github.com/sahathiya/findly_clientside',
-        demo: '',
+        demo: 'https://findly-jobs.vercel.app',
         image: findly
     },
     {
