@@ -17,7 +17,7 @@ export const projectsData = [
         projectDesc: "Step into style with our premium footwear collection — where comfort meets contemporary design.Shop the latest trends and timeless classics, curated for every step of your journey.",
         tags: ['React', 'CSS','Javascript','Node.js','Express','MongoDB'],
         code: 'https://github.com/sahathiya/Reactproject.git',
-        demo: '',
+        demo: 'https://ifoot-sahathiyas-projects.vercel.app',
         image: ifoot
     },
     {
