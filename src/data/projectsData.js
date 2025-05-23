@@ -9,7 +9,8 @@ import eight from '../assets/svg/projects/eight.svg'
 import ifoot from '../assets/png/iFoot.png'
 import booking from '../assets/png/booking.png'
 import findly from '../assets/png/findly.png'
-import echohub from '../assets/svg/projects/EchoHub.png'
+import echohub from '../assets/png/EchoHub.png'
+import product from '../assets/png/product.png'
 export const projectsData = [
     {
         id: 1,
@@ -46,43 +47,17 @@ export const projectsData = [
         code: 'https://github.com/sahathiya/EchoHub.git',
         demo: 'https://echo-hub-sahathiyas-projects.vercel.app',
         image: echohub
-    }
-    // {
-    //     id: 5,
-    //     projectName: 'E-Commerce App',
-    //     projectDesc: 'A Simple E-commerce application',
-    //     tags: ['React Native', 'Firebase'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: five
-    // },
-    // {
-    //     id: 6,
-    //     projectName: 'Uber Lite',
-    //     projectDesc: 'Uber clone',
-    //     tags: ['Flutter'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: six
-    // },
-    // {
-    //     id: 7,
-    //     projectName: 'Stock Market App',
-    //     projectDesc: 'A simple stock market API app',
-    //     tags: ['React', 'Redux', 'Bootstrap'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: seven
-    // },
-    // {
-    //     id: 8,
-    //     projectName: 'Car Pooling System',
-    //     projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-    //     tags: ['Flutter', 'React'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: eight
-    // },
+    },
+    {
+        id: 5,
+        projectName: 'Product Management',
+        projectDesc: 'A Simple E-commerce application',
+        tags: ['React', 'Node'],
+        code: 'https://github.com/sahathiya/ProductManagement',
+        demo: 'https://product-management-sahathiyas-projects.vercel.app/',
+        image: product
+    },
+    
 ]
 
 
