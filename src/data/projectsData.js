@@ -57,21 +57,15 @@ export const projectsData = [
         demo: 'https://product-management-sahathiyas-projects.vercel.app/',
         image: product
     },
+
+    {
+        id: 6,
+        projectName: 'Taskly',
+        projectDesc: 'Stay organized and boost productivity with Taskly – the simplest way to plan, assign, and track your day-to-day tasks.',
+        tags: ['React', 'Node','MySQL'],
+        code: 'https://github.com/sahathiya/Taskly',
+        demo: 'https://taskly-sahathiyas-projects.vercel.app/',
+        image: ''
+    },
     
 ]
-
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
