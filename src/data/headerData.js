@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/FATHIMA-SAHATHIYA-Mern stack.pdf'
+import resume from '../assets/pdf/FATHIMA-SAHATHIYA-latest.pdf'
 import ProfileImage from '../assets/jpg/shaProfile.jpg'
 export const headerData = {
     name: 'Fathima Sahathiya Serin',
