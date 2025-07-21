@@ -67,5 +67,15 @@ export const projectsData = [
         demo: 'https://taskly-sahathiyas-projects.vercel.app/',
         image: ''
     },
+
+    {
+        id: 7,
+        projectName: 'LiteBlog',
+        projectDesc: 'Stay organized and boost productivity with Taskly – the simplest way to plan, assign, and track your day-to-day tasks.',
+        tags: ['Next.js','MongoDB'],
+        code: 'https://github.com/sahathiya/LiteBlog',
+        demo: '',
+        image: ''
+    },
     
 ]
