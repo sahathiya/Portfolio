@@ -1,16 +1,17 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+// import one from '../assets/svg/projects/one.svg'
+// import two from '../assets/svg/projects/two.svg'
+// import three from '../assets/svg/projects/three.svg'
+// import four from '../assets/svg/projects/four.svg'
+// import five from '../assets/svg/projects/five.svg'
+// import six from '../assets/svg/projects/six.svg'
+// import seven from '../assets/svg/projects/seven.svg'
+// import eight from '../assets/svg/projects/eight.svg'
 import ifoot from '../assets/png/iFoot.png'
 import booking from '../assets/png/booking.png'
 import findly from '../assets/png/findly.png'
 import echohub from '../assets/png/EchoHub.png'
 import product from '../assets/png/product.png'
+import blog from '../assets/png/blog.png'
 export const projectsData = [
     {
         id: 1,
@@ -58,24 +59,24 @@ export const projectsData = [
         image: product
     },
 
-    {
-        id: 6,
-        projectName: 'Taskly',
-        projectDesc: 'Stay organized and boost productivity with Taskly – the simplest way to plan, assign, and track your day-to-day tasks.',
-        tags: ['React', 'Node','MySQL'],
-        code: 'https://github.com/sahathiya/Taskly',
-        demo: 'https://taskly-sahathiyas-projects.vercel.app/',
-        image: ''
-    },
+    // {
+    //     id: 6,
+    //     projectName: 'Taskly',
+    //     projectDesc: 'Stay organized and boost productivity with Taskly – the simplest way to plan, assign, and track your day-to-day tasks.',
+    //     tags: ['React', 'Node','MySQL'],
+    //     code: 'https://github.com/sahathiya/Taskly',
+    //     demo: 'https://taskly-sahathiyas-projects.vercel.app/',
+    //     image: ''
+    // },
 
     {
-        id: 7,
+        id: 6,
         projectName: 'LiteBlog',
         projectDesc: 'Stay organized and boost productivity with Taskly – the simplest way to plan, assign, and track your day-to-day tasks.',
         tags: ['Next.js','MongoDB'],
         code: 'https://github.com/sahathiya/LiteBlog',
-        demo: '',
-        image: ''
+        demo: 'https://lite-blog-nine.vercel.app/',
+        image: blog
     },
     
 ]
